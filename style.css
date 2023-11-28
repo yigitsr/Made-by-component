@@ -3,7 +3,12 @@
     align-items: center;
     justify-content: center;
     background: #0e0e0e;
-    color: #f3f3f3;
+    color: #bdbdbd;
+}
+
+.made-by:hover{
+    color: #fff;
+    transition: 300ms;
 }
 
 .made-by a{
@@ -12,6 +17,5 @@
 
 .made-by a:hover{
     color: rgb(121, 121, 209);
-    border-bottom: 1px solid rgb(121, 121, 209);
     transition: 300ms;
 }
